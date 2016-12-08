@@ -1,0 +1,15 @@
+frase=input("Insira uma frase: ")
+
+esp_branco=frase.count(" ")
+a=frase.count("a")
+e=frase.count("e")
+i=frase.count("i")
+o=frase.count("o")
+u=frase.count("u")
+
+print("a= %d"%(a))
+print("e= %d"%(e))
+print("i= %d"%(i))
+print("o= %d"%(o))
+print("u= %d"%(u))
+print("Espaco em brando= %d"%(esp_branco))
